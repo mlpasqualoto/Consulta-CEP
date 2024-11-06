@@ -1,5 +1,7 @@
 # Consulta de CEP
 
+![image](https://github.com/user-attachments/assets/c1038edf-68b8-4e05-85cc-7f46ceb0bf6f)
+
 Este é um projeto de consulta de CEP desenvolvido em HTML, CSS e JavaScript, permitindo que o usuário insira um CEP e receba informações detalhadas, como logradouro, complemento, bairro, cidade, estado e outras informações associadas.
 
 ## Funcionalidades
@@ -26,5 +28,3 @@ Este é um projeto de consulta de CEP desenvolvido em HTML, CSS e JavaScript, pe
 ## Exemplo de Uso
 
 Ao inserir o CEP no campo de texto e pressionar o botão "Search", a aplicação realiza a busca e exibe o endereço correspondente na tabela de resultados.
-##
-![image](https://github.com/user-attachments/assets/c1038edf-68b8-4e05-85cc-7f46ceb0bf6f)
