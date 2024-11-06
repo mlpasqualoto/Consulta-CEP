@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="main-screen">
+        <div class="left-screen">
+            <img src="file-searching-animate.svg" alt="file search animate">
+        </div>
+        <div class="right-screen">
+            <div id="search-cep">
+                <h1>Search CEP</h1>
+                <div class="input-label">
+                    <label for="texto">Digite o CEP para pesquisa:</label>
+                    <div class="input-wrapper">
+                        <input type="number" name="cep" id="cep" placeholder="CEP" autocomplete="off" spellcheck="false" inputmode="numeric">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+                <div class="error-cont">
+                    <p id="error"></p>
+                </div>
+                <button id="btn-search" onclick="searchCep()">Search</button>
+                <div id="table-result">
+                    <table>
+                        <tr>
+                            <td class="key">Logradouro</td>
+                            <td id="value-log"></td>
+                        </tr>
+                        <tr>
+                            <td class="key">Complemento</td>
+                            <td id="value-com"></td>
+                        </tr>
+                        <tr>
+                            <td class="key">Bairro</td>
+                            <td id="value-bai"></td>
+                        </tr>
+                        <tr>
+                            <td class="key">Cidade</td>
+                            <td id="value-cid"></td>
+                        </tr>
+                        <tr>
+                            <td class="key">Estado</td>
+                            <td id="value-est"></td>
+                        </tr>
+                        <tr>
+                            <td class="key">Região</td>
+                            <td id="value-reg"></td>
+                        </tr>
+                        <tr>
+                            <td class="key">IBGE</td>
+                            <td id="value-ibg"></td>
+                        </tr>
+                        <tr>
+                            <td class="key">DDD</td>
+                            <td id="value-dd"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
